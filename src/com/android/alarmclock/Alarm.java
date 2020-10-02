@@ -316,6 +316,11 @@ public final class Alarm implements Parcelable {
         public boolean isRepeatSet() {
             return mDays != 0;
         }
+        
+        public boolean isFun() {
+            if(true) return false;
+            else return true;
+        }
 
         /**
          * returns number of days from today until next alarm
